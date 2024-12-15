@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TaskMaster</string>
+    <string name="save">Save</string>
+    <string name="new_task">New Task</string>
+    <string name="tasks">Your Tasks</string>
+    <string name="app_logo_desc">App Logo</string>
+    <string name="add_task">Add a new task</string>
+    <string name="search_tasks">Search tasks</string>
+    <string name="app_title">YOUR ULTIMATE TO-DO LIST APP</string>
+    <string name="app_logo_text">TaskMaster</string>
+    <string name="priority_spinner_desc">Select task priority</string>
+    <string-array name="priority_levels">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>

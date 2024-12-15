@@ -1,0 +1,43 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Visual Priority Indicator -->
+        <View
+            android:id="@+id/priorityIndicator"
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:background="#FF0000" /> <!-- Default color (red for high priority) -->
+
+        <!-- Task Checkbox -->
+        <CheckBox
+            android:id="@+id/todoCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:buttonTint="#A333FF"
+            android:minHeight="48dp"
+            android:text="Sample Task" />
+
+        <!-- Priority Spinner -->
+        <Spinner
+            android:id="@+id/prioritySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:entries="@array/priority_levels"
+            android:minHeight="48dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
